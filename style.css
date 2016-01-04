@@ -1,0 +1,30 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-image: url(background2.jpg);
+  background-repeat: repeat; 
+}
+#wrapper {
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+h1 {
+  color: #785759;
+  /*make sure to put a semicolon after the command*/
+  text-decoration: underline;
+}
+h2 {
+  color: #785759;	
+}
+h3 {
+  color: #785759;	
+}
+h4 {
+  color: #785759;
+}
+#summary {
+  color: #785759;
+}
+img {
+  width: 150px
+}
