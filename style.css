@@ -1,30 +1,58 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background-image: url(background2.jpg);
-  background-repeat: repeat; 
-}
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
-}
+
+
 h1 {
-  color: #785759;
-  /*make sure to put a semicolon after the command*/
-  text-decoration: underline;
+    font-weight: normal;
+    font-size: 5.7rem;
+    color: #1b2e61;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
+
 h2 {
-  color: #785759;	
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+
 }
+
 h3 {
-  color: #785759;	
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
 }
-h4 {
-  color: #785759;
+
+.navbar-inverse {
+    background-color: #f0ecdd;
+    border-color: #f0ecdd;
 }
-#summary {
-  color: #785759;
+
+.jumbotron {
+    background-image: url(http://images.summitpost.org/original/822515.JPG);
+    background-size: cover;
+    background-position: 0% 25%;
+    background-repeat: no-repeat;
+    color: #1b2e61;
+    text-align: center;
+    height: 600px;
+    padding: 10em;
 }
-img {
-  width: 150px
+
+.jumbotron-special {
+    background-color: #8a95b3;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    height: 200px;
 }
+.navbar-default {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(10,33,38,0.9);
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+    
